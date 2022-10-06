@@ -12,11 +12,37 @@
 
 </head>
 <body>
-
+    <header>
+    <a href="index.html">
+    <h1><img src="assets/image/dive logo.jpg" alt="logo" />Abyss Diving Club</h1>
+</a>
+<nav>
+    <ul>
+        <li>
+            <a href="#">Sign Up</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+        <li>
+            <a href="index.html" class="active">Home</a>
+        </li>
+    </ul>
+</nav>
+    </header>
+    <section>
+        Main image
+    </section>
+    <section>
+        3 Activities with description
+    </section>
+    <section>
+        meetings locations, and times
+    </section>
+    <footer>
+        social links here
+    </footer>
 </body>
 
-<footer>
-
-</footer>
 
 </html>
