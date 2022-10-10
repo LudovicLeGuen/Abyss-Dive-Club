@@ -1,5 +1,4 @@
-css
- @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+css @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
     margin: 0;
@@ -11,4 +10,51 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #1666AF;
+}
+
+/* logo and headings */
+
+h1,
+h2 {
+    font-family: Oswalt, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    vertical-align: middle;
+    color: #1666AF;
+}
+
+#logo {
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 280%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* navigation links */
+
+#menu {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#menu li {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 110%;
+    letter-spacing: 4px;
+    color: #1666AF;
+    list-style-type: none;
+
 }
