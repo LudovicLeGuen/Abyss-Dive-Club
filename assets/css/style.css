@@ -50,6 +50,8 @@ header a {
     align-items: center;
     flex-direction: row-reverse;
     margin-top: 23px;
+    font-size: 110%;
+    letter-spacing: 4px;
 }
 
 #menu li {
@@ -58,8 +60,7 @@ header a {
     justify-content: right;
     align-items: center;
     margin-right: 30px;
-    font-size: 110%;
-    letter-spacing: 4px;
+
     list-style-type: none;
 }
 
@@ -77,12 +78,14 @@ header a {
 }
 
 
-/* hero image*/
+/* hero image and cover text*/
 
 #hero-outer {
     height: 600px;
     width: 100%;
-    overflow:hidden;
+    overflow: hidden;
+
+    position: relative;
 }
 
 #hero-image {
@@ -94,7 +97,7 @@ header a {
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 
@@ -107,4 +110,23 @@ header a {
     to {
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 200%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    text-shadow: 2px 2px white;
+
+    width: 800px;
+    height: 200px;
+
+    background-color: none;
+    
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
