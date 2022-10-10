@@ -34,7 +34,12 @@ h2 {
 header {
     display: flex;
     justify-content: space-between;
+    height: 68px;
 
+}
+
+header a {
+    text-decoration: none;
 }
 
 /* navigation links */
@@ -43,18 +48,30 @@ header {
     display: flex;
     justify-content: right;
     align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 23px;
 }
 
 #menu li {
-    margin: 1rem;
+
     display: flex;
-    flex-direction: row-reverse;
     justify-content: right;
     align-items: center;
     margin-right: 30px;
     font-size: 110%;
     letter-spacing: 4px;
-    color: #1666AF;
     list-style-type: none;
+}
 
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #1666AF;
+}
+
+.active {
+    border-bottom: 1px solid #1666AF;
 }
