@@ -1,48 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+css
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Free Diving school in Cannes, France">
-    <meta name="keywords"
-        content="Abyss diving club, free diving, spearfishing, snorkeling, french riviera, Cannes, France">
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
-        <title>Abyss Diving Club</title>
-
-</head>
-<body>
-    <header>
-    <a href="index.html">
-    <h1><img src="assets/image/dive logo.jpg" alt="logo" />Abyss Diving Club</h1>
-</a>
-<nav>
-    <ul>
-        <li>
-            <a href="#">Sign Up</a>
-        </li>
-        <li>
-            <a href="#">About</a>
-        </li>
-        <li>
-            <a href="index.html" class="active">Home</a>
-        </li>
-    </ul>
-</nav>
-    </header>
-    <section>
-        Main image
-    </section>
-    <section>
-        3 Activities with description
-    </section>
-    <section>
-        meetings locations, and times
-    </section>
-    <footer>
-        social links here
-    </footer>
-</body>
-
-
-</html>
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #1666AF;
+}
