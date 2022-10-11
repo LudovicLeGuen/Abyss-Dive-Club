@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
@@ -155,7 +154,7 @@ header a {
 }
 
 .activity-box {
-    height: 700px;
+    height: 750px;
     width: 32%;
     margin-top: 30px;
     overflow: hidden;
@@ -168,17 +167,17 @@ header a {
 }
 
 #snorkeling-activity {
-    background-image: url(../images/family-snorkeling.jpg);
+    background-image: url(../images/Snorkeling.jpg);
     background-position: center;
 }
 
 #deep-activity {
-    background-image: url(../images/bottle-diver.jpg);
+    background-image: url(../images/wreck-divers.jpg);
     background-position: center;
 }
 
 #free-activity {
-    background-image: url(../images/female-diver.jpg);
+    background-image: url(../images/plongeur\ hero.jpg);
     background-position: center;
 }
 
@@ -191,9 +190,16 @@ header a {
     margin-bottom: 15px;
 }
 
+.activity-box h4 {
+    font-size: 130%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
 .activity-box p {
     font-size: 130%;
     text-align: left;
     line-height: 30px;
     margin: 15px 10px 0px 10px;
 }
+
