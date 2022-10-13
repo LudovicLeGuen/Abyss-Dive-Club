@@ -205,7 +205,8 @@ header a {
 }
 
 .activity-box p,
-.team-box p, .philosophy-box p {
+.team-box p,
+.philosophy-box p {
     font-size: 130%;
     text-align: left;
     line-height: 30px;
@@ -257,7 +258,8 @@ footer {
     background-position: center;
 }
 
-.team-box h3, .philosophy-box h3 {
+.team-box h3,
+.philosophy-box h3 {
     font-size: 150%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -271,13 +273,13 @@ footer {
     text-align: center;
     width: 30%;
     border: 2px solid #1666AF;
-    margin: 20px auto ;
-    
+    margin: 20px auto;
+
 }
 
 /*ethos*/
 
-.philosophy-box{
+.philosophy-box {
     height: 350px;
     width: 20%;
     margin-top: 30px;
@@ -285,3 +287,15 @@ footer {
     padding: 15px;
 }
 
+/*location*/
+#location {
+    height: 600px;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+}
+
+iframe {
+    height: 70%;
+    width: 80%;
+}
