@@ -10,11 +10,14 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #1666AF;
+  
 }
 
 em {
     font-weight: bold;
 }
+
+
 
 /* logo and headings */
 
@@ -40,6 +43,7 @@ header {
     justify-content: space-between;
     height: 68px;
     margin: 10px 0px 10px 15px;
+   
 
 }
 
@@ -256,4 +260,11 @@ footer{
     letter-spacing: 4px;
     text-align: center;
     margin-bottom: 15px;
+}
+.section-title {
+    font-size: 150%;
+    text-align: center;
+    width: 30%;
+    border: 2px solid #1666AF;
+    margin: 0 auto;
 }
