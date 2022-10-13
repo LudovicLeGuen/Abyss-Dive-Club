@@ -10,7 +10,7 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #1666AF;
-  
+
 }
 
 em {
@@ -43,7 +43,7 @@ header {
     justify-content: space-between;
     height: 68px;
     margin: 10px 0px 10px 15px;
-   
+
 
 }
 
@@ -151,7 +151,9 @@ header a {
 }
 
 /* 3 activities section*/
-#activities, #team {
+#activities,
+#team,
+#philosophy {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
@@ -165,7 +167,8 @@ header a {
 
 }
 
-.activity-picture, .team-picture {
+.activity-picture,
+.team-picture {
     height: 400px;
     border-radius: 10%;
 }
@@ -201,7 +204,8 @@ header a {
     margin-top: 15px;
 }
 
-.activity-box p, .team-box p {
+.activity-box p,
+.team-box p {
     font-size: 130%;
     text-align: left;
     line-height: 30px;
@@ -210,7 +214,7 @@ header a {
 
 /* footer and social network links*/
 
-footer{
+footer {
     height: 150px;
 }
 
@@ -261,10 +265,20 @@ footer{
     text-align: center;
     margin-bottom: 15px;
 }
+
 .section-title {
     font-size: 150%;
     text-align: center;
     width: 30%;
     border: 2px solid #1666AF;
     margin: 0 auto;
+}
+
+/*ethos*/
+.philosophy-box{
+    height: 300px;
+    width: 20%;
+    margin-top: 30px;
+    border: 1px solid #1666AF;
+    
 }
