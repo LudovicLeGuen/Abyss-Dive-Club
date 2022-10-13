@@ -205,7 +205,7 @@ header a {
 }
 
 .activity-box p,
-.team-box p {
+.team-box p, .philosophy-box p {
     font-size: 130%;
     text-align: left;
     line-height: 30px;
@@ -236,7 +236,7 @@ footer {
 
 /*Meet the team*/
 .team-box {
-    height: 600px;
+    height: 650px;
     width: 32%;
     margin-top: 30px;
     overflow: hidden;
@@ -257,7 +257,7 @@ footer {
     background-position: center;
 }
 
-.team-box h3 {
+.team-box h3, .philosophy-box h3 {
     font-size: 150%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -271,14 +271,17 @@ footer {
     text-align: center;
     width: 30%;
     border: 2px solid #1666AF;
-    margin: 0 auto;
+    margin: 20px auto ;
+    
 }
 
 /*ethos*/
+
 .philosophy-box{
-    height: 300px;
+    height: 350px;
     width: 20%;
     margin-top: 30px;
-    border: 1px solid #1666AF;
-    
+    border: 2px solid #1666AF;
+    padding: 15px;
 }
+
