@@ -153,7 +153,8 @@ header a {
 /* 3 activities section*/
 #activities,
 #team,
-#philosophy {
+#philosophy,
+#form-section {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
@@ -281,20 +282,21 @@ footer {
 #philosophy {
     margin-bottom: 100px;
 }
+
 .philosophy-box {
     height: 350px;
     width: 20%;
     margin-top: 30px;
     border: 2px solid #1666AF;
     padding: 15px;
-    
+
 }
 
 /*location*/
 #location {
     height: 500px;
     display: flex;
-    align-items: center;   
+    align-items: center;
     justify-content: center;
 }
 
@@ -304,4 +306,53 @@ iframe {
 }
 
 /* sign up*/
-form
+
+.form-box {
+    height: 600px;
+  
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #0f63ad;
+    border: 2px solid #0f63ad;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 2px;
+}
+
+.signup-form h2 {
+    color: #0f63ad;
+    margin-bottom: 20px;
+}
+
+.text-input {
+ 
+    color: ##0f63ad;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #0f63ad;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #1666AF;
+    border:2px;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #0f63ad
+    color: white;
+}
