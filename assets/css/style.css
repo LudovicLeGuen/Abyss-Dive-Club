@@ -153,8 +153,7 @@ header a {
 /* 3 activities section*/
 #activities,
 #team,
-#philosophy,
-#form-section {
+#philosophy {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
@@ -307,18 +306,27 @@ iframe {
 
 /* sign up*/
 
-.form-box {
-    height: 600px;
-  
+#form-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 30px 10% 0 0;
     color: #0f63ad;
     border: 2px solid #0f63ad;
     max-width: 400px;
     padding: 30px;
     border-radius: 2px;
+
+}
+
+textarea {
+    font-weight: normal;
+    width: 100%;
+    height: 170px;
+    border: 1px solid #0f63ad;
 }
 
 .signup-form h2 {
@@ -327,8 +335,8 @@ iframe {
 }
 
 .text-input {
- 
-    color: ##0f63ad;
+
+    color: #0f63ad;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px;
@@ -338,7 +346,12 @@ iframe {
 
 .text-input:hover {
     border-color: #1666AF;
-    border:2px;
+    border: 2px solid #0f63ad;
+}
+
+.text-input2 {
+    padding: 0 10%;
+    height: 20%;
 }
 
 .join-button {
@@ -347,12 +360,25 @@ iframe {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #0f63ad;
     color: #fafafa;
     display: block;
 }
 
 .join-button:hover {
-    background-color: #0f63ad
-    color: white;
+    background-color: white;
+    color: #0f63ad;
+    border: 1px solid #0f63ad;
+}
+
+.form-image {
+    float: right;
+    margin: auto;
+    display: block;
+}
+
+.form-right {
+    float: left;
+    margin: auto;
+    display: block;
 }
