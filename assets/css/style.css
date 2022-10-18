@@ -384,6 +384,8 @@ textarea {
 
 /* For medium screen sizes from 950px wide and down */
 @media (max-width: 950px) {
+
+    /* header's name and nav menu stak up and center*/
     header {
         height: auto;
         flex-direction: column;
@@ -396,4 +398,18 @@ textarea {
     #menu {
         justify-content: center;
     }
-}
+
+    /* 3 activities section to stack up and center*/
+    /* 3 team memmbers to stack up and center*/
+    /* ethos to stack up and center*/
+    #activities {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .activity-box {
+        height: auto;
+        width: 700px;
+        margin: 30px 20px 0;
+        overflow: hidden;
+    }
