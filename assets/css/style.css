@@ -160,11 +160,10 @@ header a {
 }
 
 .activity-box {
-    height: 750px;
+    height: auto;
     width: 32%;
     margin-top: 30px;
     overflow: hidden;
-
 }
 
 .activity-picture,
@@ -237,7 +236,7 @@ footer {
 
 /*Meet the team*/
 .team-box {
-    height: 650px;
+    height: auto;
     width: 32%;
     margin-top: 30px;
     overflow: hidden;
@@ -283,7 +282,7 @@ footer {
 }
 
 .philosophy-box {
-    height: 350px;
+    height: auto;
     width: 20%;
     margin-top: 30px;
     border: 2px solid #1666AF;
@@ -381,4 +380,20 @@ textarea {
     float: left;
     margin: auto;
     display: block;
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media (max-width: 950px) {
+    header {
+        height: auto;
+        flex-direction: column;
+    }
+
+    #logo {
+        justify-content: center;
+    }
+
+    #menu {
+        justify-content: center;
+    }
 }
