@@ -438,7 +438,7 @@ textarea {
     }
 }
 
-/* For medium screen sizes from 1px wide and down */
+/* For medium screen sizes from 1500px wide and down */
 @media (max-width: 1500px) {
 
     #form-section {
@@ -449,4 +449,16 @@ textarea {
     .signup-form {
         margin: 0px auto 30px;
     }
+
+    .form-image {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        
+    }
+
 }
+
+/* For medium screen sizes from 450px wide and down */
