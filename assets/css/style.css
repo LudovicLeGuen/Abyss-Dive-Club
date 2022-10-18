@@ -402,14 +402,25 @@ textarea {
     /* 3 activities section to stack up and center*/
     /* 3 team memmbers to stack up and center*/
     /* ethos to stack up and center*/
-    #activities {
+    #activities,
+    #team,
+    #philosophy {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .activity-box {
+    .activity-box,
+    .team-box,
+    .philosophy-box {
         height: auto;
         width: 700px;
         margin: 30px 20px 0;
-        overflow: hidden;
+
     }
+
+    .section-title {
+        font-size: 150%;
+        text-align: center;
+        width: 90%;
+        border: 2px solid #1666AF;
+        margin: 50px auto;
