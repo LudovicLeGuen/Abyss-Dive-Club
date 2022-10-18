@@ -441,6 +441,7 @@ textarea {
 /* For medium screen sizes from 1500px wide and down */
 @media (max-width: 1500px) {
 
+    /* sign up page to stack up */
     #form-section {
         display: flex;
         flex-wrap: wrap;
@@ -456,9 +457,24 @@ textarea {
         width: 100%;
         height: auto;
         overflow: hidden;
-        
+
     }
 
 }
 
 /* For medium screen sizes from 450px wide and down */
+@media (max-width: 450px) {
+    /* Footer lionks to reduce in size */
+
+    footer {
+        height: 100px;
+    }
+
+
+    #footer-links i {
+        font-size: 170%;
+        margin: 20px;
+        padding: 20px;
+        color: #0f63ad;
+    }
+}
