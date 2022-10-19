@@ -123,7 +123,12 @@ header a {
     }
 }
 
-#cover-text {
+/* part of web-responsiveness, hides h2 for screens 600px wide and higher */
+.b {
+    visibility: hidden;
+}
+
+#cover-text-a {
     font-size: 200%;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -131,7 +136,7 @@ header a {
     text-align: center;
     text-shadow: 2px 2px white;
 
-    width: 700px;
+    width: 100%;
     height: 200px;
 
     background-color: none;
@@ -142,11 +147,13 @@ header a {
     transform: translate(-50%, -50%);
 }
 
-#cover-text h2 {
+
+#cover-text-a h2 {
     margin-bottom: 5px;
 }
 
-#cover-text h3 {
+
+#cover-text-a h3 {
     margin-top: 0;
 }
 
@@ -417,7 +424,8 @@ textarea {
     #team,
     #philosophy {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
+
     }
 
     .activity-box,
@@ -462,9 +470,9 @@ textarea {
 
 }
 
-/* For medium screen sizes from 450px wide and down */
-@media (max-width: 450px) {
-    /* Footer lionks to reduce in size */
+/* For medium screen sizes from 600px wide and down */
+@media (max-width: 600px) {
+    /* Footer links to reduce in size */
 
     footer {
         height: 100px;
@@ -476,5 +484,40 @@ textarea {
         margin: 20px;
         padding: 20px;
         color: #0f63ad;
+    }
+
+    /* hero image's cover text to split on screen */
+    .a {
+        display: none;
+    }
+
+    .b {
+        visibility: visible;
+    }
+
+    #cover-text-b {
+        font-size: 200%;
+        font-family: Oswald, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        text-align: center;
+        text-shadow: 2px 2px white;
+
+        width: 100%;
+        height: 100px;
+
+        background-color: none;
+
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #cover-text-a {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
