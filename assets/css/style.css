@@ -171,6 +171,29 @@ header a {
     width: 32%;
     margin-top: 30px;
     overflow: hidden;
+    position: relative;
+}
+
+.activity-box .join-button {
+    font-size: 150%;
+    background-color:#3d80bc;
+    width: 20%;
+    margin: 20px auto;
+    border-radius: 5%;
+    font-weight: bold;
+    letter-spacing: 4px;
+    position: absolute center;
+    bottom: 0px;
+}
+
+.activity-box a {
+    text-decoration: none;
+    color: white;
+}
+.activity-box a:hover {
+    border-bottom: 1px solid #1666AF;
+    color: #3d80bc;
+    text-decoration: none;
 }
 
 .activity-picture,
