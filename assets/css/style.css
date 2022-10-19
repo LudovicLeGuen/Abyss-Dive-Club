@@ -319,6 +319,13 @@ footer {
 
 }
 
+/*video*/
+#video {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
 /*location*/
 #location {
     height: auto;
