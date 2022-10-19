@@ -20,7 +20,6 @@ em {
 
 
 /* logo and headings */
-
 h1,
 h2 {
     font-family: Oswalt, sans-serif;
@@ -52,7 +51,6 @@ header a {
 }
 
 /* navigation links */
-
 #menu {
     display: flex;
     justify-content: right;
@@ -176,7 +174,7 @@ header a {
 
 .activity-box .join-button {
     font-size: 150%;
-    background-color:#3d80bc;
+    background-color: #3d80bc;
     width: 20%;
     margin: 20px auto;
     border-radius: 5%;
@@ -190,6 +188,7 @@ header a {
     text-decoration: none;
     color: white;
 }
+
 .activity-box a:hover {
     border-bottom: 1px solid #1666AF;
     color: #3d80bc;
@@ -324,17 +323,21 @@ footer {
 #location {
     height: 500px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+   
 }
 
-iframe {
+iframe, .picture-container{
     height: 100%;
-    width: 90%;
+    width: 45%;
+}
+
+#location img {
+    height: 100%;
+    width: 100%;
 }
 
 /* sign up*/
-
 #form-section {
     display: flex;
     justify-content: center;
