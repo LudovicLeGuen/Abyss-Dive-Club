@@ -468,7 +468,8 @@ textarea {
     #team,
     #philosophy {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        
     }
 
     .activity-box,
@@ -486,6 +487,8 @@ textarea {
         border: 2px solid #1666AF;
         margin: 50px auto;
     }
+   
+
 }
 
 /* For medium screen sizes from 1500px wide and down */
@@ -518,7 +521,7 @@ textarea {
     }
 
 
-    /* location iFrame and picture to stack up*/
+    /* location iFrame to stay and picture to disappear*/
     #location {
         display: flex;
         flex-wrap: wrap-reverse;
