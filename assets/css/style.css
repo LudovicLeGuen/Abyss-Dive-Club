@@ -321,15 +321,16 @@ footer {
 
 /*location*/
 #location {
-    height: 500px;
+    height: auto;
     display: flex;
     justify-content: space-around;
-   
+
 }
 
-iframe, .picture-container{
-    height: 100%;
-    width: 45%;
+iframe,
+.picture-container {
+    height: 350px;
+    width: 700px;
 }
 
 #location img {
@@ -451,7 +452,6 @@ textarea {
     #philosophy {
         display: flex;
         flex-wrap: wrap-reverse;
-
     }
 
     .activity-box,
@@ -460,7 +460,6 @@ textarea {
         height: auto;
         width: 700px;
         margin: 30px 20px 0;
-
     }
 
     .section-title {
@@ -470,6 +469,9 @@ textarea {
         border: 2px solid #1666AF;
         margin: 50px auto;
     }
+
+
+
 }
 
 /* For medium screen sizes from 1500px wide and down */
@@ -492,6 +494,21 @@ textarea {
         height: auto;
         overflow: hidden;
 
+    }
+
+    /* location iFrame and picture to stack up*/
+    #location {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    iframe {
+        height: 400px;
+        width: 80%;
+    }
+
+    .picture-container {
+        display: none;
     }
 
 }
