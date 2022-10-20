@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
@@ -241,6 +242,29 @@ header a {
     margin: 15px 10px 0px 10px;
 }
 
+
+/* Back-To-Top Button Configuration - CSS code found on https://secluded.site/adding-a-better-scroll-to-top-button-without-javascript/ */
+.top-home {
+    position: fixed;
+    bottom: 5rem;
+    right: 5%;
+    max-width: 50px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+    padding: .5px;
+    border-radius: 8px;
+    justify-content: center;
+    background: transparent;
+    color: #3d80bc;
+    border: 1px solid #3d80bc;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* footer and social network links*/
 
 footer {
@@ -469,7 +493,7 @@ textarea {
     #philosophy {
         display: flex;
         flex-wrap: wrap;
-        
+
     }
 
     .activity-box,
@@ -487,7 +511,7 @@ textarea {
         border: 2px solid #1666AF;
         margin: 50px auto;
     }
-   
+
 
 }
 
