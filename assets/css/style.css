@@ -17,8 +17,6 @@ em {
     font-weight: bold;
 }
 
-
-
 /* logo and headings */
 h1,
 h2 {
@@ -42,8 +40,6 @@ header {
     justify-content: space-between;
     height: 68px;
     margin: 10px 0px 10px 15px;
-
-
 }
 
 header a {
@@ -84,7 +80,6 @@ header a {
 .active {
     border-bottom: 1px solid #1666AF;
 }
-
 
 /* hero image and cover text*/
 
@@ -144,7 +139,6 @@ header a {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 #cover-text-a h2 {
     margin-bottom: 5px;
@@ -241,7 +235,6 @@ header a {
     margin: 15px 10px 0px 10px;
 }
 
-
 /* Back-To-Top Button Configuration - CSS code found on https://secluded.site/adding-a-better-scroll-to-top-button-without-javascript/ */
 .top-home {
     position: fixed;
@@ -284,7 +277,6 @@ footer {
     padding: 30px;
     color: #0f63ad;
 }
-
 
 /*Meet the team*/
 .team-box {
@@ -491,7 +483,7 @@ textarea {
     #team,
     #philosophy {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
 
     }
 
@@ -510,7 +502,6 @@ textarea {
         border: 2px solid #1666AF;
         margin: 50px auto;
     }
-
 
 }
 
@@ -542,7 +533,6 @@ textarea {
         height: 100%;
         object-fit: contain;
     }
-
 
     /* location iFrame to stay and picture to disappear*/
     #location {
