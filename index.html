@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Free Diving school in Cannes, France">
     <meta name="keywords"
-        content="Abyss diving club, free diving, spearfishing, snorkeling, french riviera, Cannes, France">
+        content="Abyss diving club, free diving, scuba diving, snorkeling, french riviera, Cannes, France">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Abyss Diving Club</title>
+    <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 
 </head>
 
 <body>
+    <!-- Header -->
     <header id="top">
         <a href="index.html">
             <h1 id="logo"><img src="assets/images/dive logo.jpg" alt="business logo" />Abyss Diving Club</h1>
@@ -33,103 +35,132 @@
         </nav>
     </header>
 
+    <!-- Hero Image section with cover text-->
     <section id="hero-outer">
+
         <div id="hero-image"></div>
+
         <div id="cover-text-a">
-            <h2 class="a">Discover the deep</h2>
+            <h2 class="a">Discover the deep</h2> <!-- this h2 disappear when screens are smaller than 600 px-->
             <h3>Explore and Have fun</h3>
         </div>
+
         <div id="cover-text-b">
+            <!-- this h2 appears when screens are smaller than 600 px-->
             <h2 class="b">Discover the deep</h2>
         </div>
     </section>
 
+    <!-- 3 proposed activities are identical in structure for clarity purpose and easy comparaison by the user -->
     <section id="activities">
+
+        <!-- snorkeling activity box-->
         <div class="activity-box">
             <h3> Snorkeling</h3>
-            <div id="snorkeling-activity" class="activity-picture"></div>
+
+            <!-- activity picture inserted using the css method since the pictre is purely deocrative and does not hold a particular meaning-->
+            <div id="snorkeling-activity" class="activity-picture">
+            </div>
+
+            <!-- day and time of meting-->
             <div>
                 <h4><i class="fa-regular fa-calendar-days"></i> Saturday - 1pm</h4>
             </div>
+
+            <!-- duration of activity-->
             <div>
                 <h4><i class="fa-regular fa-hourglass-half"></i> 2 hours</h4>
             </div>
+
+            <!-- description of activity-->
             <div class="activity-description">
                 <p>We organize guided tours around the Cannes bay area to enjoy the mediterranean fauna and flora. We
                     encourage you to come with your friends and family to enjoy a fun and memorable activity. No need to
                     have any experience, it is super easy.<br>
                     <em>Do not forget the camera!</em></p>
-
             </div>
+
+            <!-- the join button allows mobile users to reach the sign up form without having to go back up to the header -->
             <a class="join-button" href="sign-up.html">JOIN</a>
         </div>
 
+        <!-- scuba diving activity box-->
         <div class="activity-box">
             <h3>Scuba Diving</h3>
-            <div id="deep-activity" class="activity-picture">
 
+            <div id="deep-activity" class="activity-picture">
             </div>
+
             <div>
                 <h4><i class="fa-regular fa-calendar-days"></i> Thursday - 1pm</h4>
             </div>
+
             <div>
                 <h4><i class="fa-regular fa-hourglass-half"></i> 2 hours</h4>
             </div>
+
             <div class="activity-description">
                 <p>Join the scuba group and discover the Cannes bay area with us. We roam to a maximum depth of 100 ft.
                     We go through wrecks, reefs and much more. Relax and discover a hidden side of Cannes.<br>
                     <em>You must have your diver certificate and your own equipment to join the fun.</em></p>
-
             </div>
-            <a class="join-button" href="sign-up.html">JOIN</a>
-        </div>
 
+            <a class="join-button" href="sign-up.html">JOIN</a>
+
+        </div>
+        <!-- free diving activity box -->
         <div class="activity-box">
             <h3>Free diving</h3>
-            <div id="free-activity" class="activity-picture">
 
+            <div id="free-activity" class="activity-picture">
             </div>
+
             <div>
                 <h4><i class="fa-regular fa-calendar-days"></i> Monday - 2pm</h4>
             </div>
+
             <div>
                 <h4><i class="fa-regular fa-hourglass-half"></i> 1,5 hours</h4>
             </div>
+
             <div class="activity-description">
                 <p>Free diving is all about self control and mind peacefulness. We train veterans and guide
                     beginners in
-                    this wonderfull journey into the deep. We will help you push your limits. Do not fear the abyss, embrace it, we will be with you
+                    this wonderfull journey into the deep. We will help you push your limits. Do not fear the abyss,
+                    embrace it, we will be with you
                     all
                     the way.<br>
                     <em>All ages accepted.</em></p>
 
             </div>
-            <a class="join-button" href="sign-up.html">JOIN</a>
-        </div>
 
+            <a class="join-button" href="sign-up.html">JOIN</a>
+
+        </div>
     </section>
+
     <!-- Back-To-Top Button - HTML code inspired by Irishbecky91 who found it on https://secluded.site/adding-a-better-scroll-to-top-button-without-javascript/ -->
     <a href="#top"><button class="top-home"><i class="fa-solid fa-arrow-up-long"></i></button></a>
 
+    <!-- Footer -->
     <footer>
-        <footer>
-            <ul id="footer-links">
-                <li>
-                    <a href="https://facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page (opens in a new tab)"><i
-                            class="fab fa-twitter-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-                </li>
-            </ul>
-        </footer>
+        <ul id="footer-links">
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+        </ul>
     </footer>
+
+    <!-- font awesome kit-->
     <script src="https://kit.fontawesome.com/d16a3d2fb1.js" crossorigin="anonymous"></script>
 </body>
 
