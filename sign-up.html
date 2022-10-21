@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,11 +9,13 @@
         content="Abyss diving club, free diving, spearfishing, snorkeling, french riviera, Cannes, France">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Abyss Diving Club</title>
+    <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 
 </head>
 
 <body>
+    <!-- Header -->
     <header>
         <a href="index.html">
             <h1 id="logo"><img src="assets/images/dive logo.jpg" alt="business logo" />Abyss Diving Club</h1>
@@ -34,20 +35,23 @@
         </nav>
     </header>
 
+    <!-- Form section -->
     <h2 class="section-title">Contact us</h2>
     <section id="form-section">
         <div class="form-container">
             <div class="form-box">
                 <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
                     <h2>Register and dive with us!</h2>
+                    <!-- Name -->
                     <label for="fname">First Name</label>
                     <input class="text-input" id="fname" name="first_name" type="text" required>
-
+                    <!-- Last Name -->
                     <label for="lname">Last Name</label>
                     <input class="text-input" id="lname" name="last_name" type="text" required>
-
+                    <!-- Email -->
                     <label for="email">Email Address</label>
                     <input class="text-input" type="email" id="email" name="email_address" required>
+                    <!-- Activity check boxes -->
                     <div>
                         <input type="checkbox" id="free" name="activity-choice" value="free-dive" required>
                         <label for="free" class="dive-choice">Free Dive</label>
@@ -56,20 +60,25 @@
                         <input type="checkbox" id="snorkeling" name="activity-choice" value="snorkeling" required>
                         <label for="snorkeling" class="dive-choice">Snorkeling</label>
                     </div>
+                    <!-- Message box -->
                     <div class="message">
                         <label for="Message">Message</label>
                         <div>
                             <textarea id="Message" name="Message" required></textarea>
                         </div>
                     </div>
+                     <!-- Submit button -->
                     <input class="join-button" type="submit" value="Dive in!">
                 </form>
             </div>
         </div>
+
+        <!--photo found on pinterest https://www.pinterest.com/pin/853221091887063483/ -->
         <div class="form-image">
             <img src="./assets/images/art.jpg" alt=" artistic picture of a free diver">
         </div>
     </section>
+
     <!-- Back-To-Top Button - HTML code inspired by Irishbecky91 who found it on https://secluded.site/adding-a-better-scroll-to-top-button-without-javascript/ -->
     <a href="#top"><button class="top-home"><i class="fa-solid fa-arrow-up-long"></i></button></a>
     <footer>
@@ -89,6 +98,7 @@
         </ul>
     </footer>
 
+    <!-- font awesome kit-->
     <script src="https://kit.fontawesome.com/d16a3d2fb1.js" crossorigin="anonymous"></script>
 </body>
 
