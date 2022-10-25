@@ -27,6 +27,17 @@
 ***
 
 ## Introduction
+The website is meant to provide useful information about a fictional diving club located in the Cannes bay, on the French Riviera coast. The club is purely meant to gather people and has no lucrative mean.
+
+As such the target audience is the local population and also the tourists who wants to enjoy a fun activity with other people.
+
+This website is the first Milestone projects (out of five) required to obtain the Diploma in Software development at The Code Institute.
+
+The requirements of this project are:
+-build a responsive and static front-end site 
+-present useful information to users 
+-use HTML5 and CSS3. 
+-The site must contain at least three pages.
 
 ## UX
 ### Ideal User Demographic
