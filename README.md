@@ -1,5 +1,7 @@
 # Abyss-diving-club
+![Abyss diving club on devices](assets/readme-files/abyss-diving-club.PNG)
 
+[Click here to access live project](https://ludovicleguen.github.io/Abyss-Dive-Club/)
 ## Table of contents
 1. [Introduction](#Introduction)
 2. [UX](#UX)
