@@ -81,7 +81,19 @@ There are two types of ideal users:
 ## Testing
 
 ## Deployment
+The site was developped on Gitpod, commiting and pushing to github.
+
 ### Deploying on GitHub Pages
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into GitHub (or create an account if necessary).
+2. Choose the GitHub Repository.
+3. Select Settings from the menu items.
+4. Select "Pages" from the left hand menu.
+5. Under "Branch" click the drop-down menu labelled "None" and select "Main".
+6. Click "Save".
+7. Wait a few seconds up to a few minutes and refresh the page.
+8. The site is now deployed and a link is provided.
     
 ## Credits 
 ### Media
