@@ -41,11 +41,20 @@ The requirements of this project are:
 
 ## UX
 ### Ideal User Demographic
+There are two types of ideal users:
+* Frequent user
+* New user
 
 ### User-Stories
-#### Current User Goals
+#### Frequent User Goals
+* As a frequent user, I want to see a pleasing website representing a group of people to which I am proud to be part of.
+* As a current user, I want a website easy to navigate with information easily readable and accessible.
+* As a current user, I want to access the content with minimum clicks.
+
 #### New User Goals
-#### New member Goals
+* As a new user, I want to navigate the site easily and intuitively.
+* As a new user, I want relevant information organized in graphically logical manner.
+* As a new user, I want to understand what the website is about within a few seconds.
 
 ### Development-Planes
 #### Strategy
