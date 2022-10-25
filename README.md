@@ -34,10 +34,10 @@ As such the target audience is the local population and also the tourists who wa
 This website is the first Milestone projects (out of five) required to obtain the Diploma in Software development at The Code Institute.
 
 The requirements of this project are:
--build a responsive and static front-end site 
--present useful information to users 
--use HTML5 and CSS3. 
--The site must contain at least three pages.
+* Build a responsive and static front-end site 
+* Present useful information to users 
+* Use HTML5 and CSS3. 
+* The site must contain at least three pages.
 
 ## UX
 ### Ideal User Demographic
