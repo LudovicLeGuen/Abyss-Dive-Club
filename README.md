@@ -40,6 +40,8 @@ The requirements of this project are:
 * Use HTML5 and CSS3. 
 * The site must contain at least three pages.
 
+[Back to top ⇧](#Abyss-diving-club)
+
 ## UX
 ### Ideal User Demographic
 There are two types of ideal users:
@@ -56,6 +58,8 @@ There are two types of ideal users:
 * As a new user, I want to navigate the site easily and intuitively.
 * As a new user, I want relevant information organized in graphically logical manner.
 * As a new user, I want to understand what the website is about within a few seconds.
+
+[Back to top ⇧](#Abyss-diving-club)
 
 ### Development-Planes
 #### Strategy
@@ -87,6 +91,8 @@ There are two types of ideal users:
 - [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
 - [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")was used to verify responsiveness and to create a the top picture of this README.md
 
+[Back to top ⇧](#Abyss-diving-club)
+
 ## Testing
 
 ## Deployment
@@ -104,6 +110,8 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 7. Wait a few seconds up to a few minutes and refresh the page.
 8. The site is now deployed and a link is provided.
     
+[Back to top ⇧](#Abyss-diving-club)
+
 ## Credits 
 ### Media
 Pictures used on the site come from various websites and belong to several different owners:
@@ -120,12 +128,15 @@ The video was taken from [youtube](https://www.youtube.com) and belongs to [EASY
 ### Code 
 The developer has consulted countless times Stack Overflow and W3Schools in ordeer to build the website.
 The more specific code that has been heavily influencial to the developper is commented directly in the code. 
+[Back to top ⇧](#Abyss-diving-club)
 
 ## Acknowledgements
 I would like to thank:
 * my wife for her patience and her kind words when I was in doubt.
 * my mentor, Seun, for her counseling and her contagious enthusiasm and love for coding.
 * my fellow coding students of Code institue who have been invaluable on Slack.
+
+[Back to top ⇧](#Abyss-diving-club)
 
 ***
 
