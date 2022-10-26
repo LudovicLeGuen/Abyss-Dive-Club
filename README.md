@@ -85,11 +85,11 @@ There are two types of ideal users:
 * CSS3
 ### Frameworks, Libraries & Programs Used
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts") was used to import the fonts "Lato", and "Oswald".
-- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")was used for the several icons.
-- [GitPod](https://gitpod.io/ "Link to GitPod homepage")was used for writing, commiting, and pushing code.
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome") was used for the several icons.
+- [GitPod](https://gitpod.io/ "Link to GitPod homepage") was used for writing, commiting, and pushing code.
 - [GitHub](https://github.com/ "Link to GitHub")
 - [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
-- [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")was used to verify responsiveness and to create a the top picture of this README.md
+- [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage") was used to verify responsiveness and to create a the top picture of this README.md
 
 [Back to top ⇧](#Abyss-diving-club)
 
