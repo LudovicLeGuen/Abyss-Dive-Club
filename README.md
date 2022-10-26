@@ -22,9 +22,8 @@
 7. [Deployment](#Deployment)
      1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
 8. [Credits](#Credits)
-     1. [Content](#Content)
-     2. [Media](#Media)
-     3. [Code](#Code)
+     1. [Media](#Media)
+     2. [Code](#Code)
 9. [Acknowledgements](#Acknowledgements)
 ***
 
@@ -99,8 +98,26 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
     
 ## Credits 
 ### Media
+Pictures used on the site come from various websites and belong to several different owners:
+* quicksilver-cruises.com
+* Pinterest.com
+* aquacityfreediving.com
+* fairedelavoile.fr
+* garmin.com
+* padi.com
+* checkyeti.com
+
+The video was taken from [youtube](https://www.youtube.com) and belongs to [EASY-DIVE](https://www.youtube.com/watch?v=u9CJtajZ0U0)
+
 ### Code 
+The developer has consulted countless times Stack Overflow and W3Schools in ordeer to build the website.
+The more specific code that has been heavily influencial to the developper is commented directly in the code. 
 
 ## Acknowledgements
+I would like to thank:
+* my wife for her patience and her kind words when I was in doubt.
+* my mentor, Seun, for her counseling and her contagious enthusiasm and love for coding.
+* my fellow coding students of Code institue who have been invaluable on Slack.
 
 ***
+
