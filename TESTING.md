@@ -96,6 +96,19 @@
 
 ![form data test](assets/testing-files/signup-page/form.gif)
 
+### Responsiveness
+* Home page
+
+![Home page resposnsive test](assets/testing-files/homepage/home-responsive.gif)
+
+* About page 
+
+![About page resposnsive test](assets/testing-files/about-page/about-responsive.gif)
+
+* Sign-up page
+
+![Signup page resposnsive test](assets/testing-files/signup-page/signup-responsive.gif)
+
 [Back to top](#Abyss-diving-club---Testing)
 
 ## Automated Testing
