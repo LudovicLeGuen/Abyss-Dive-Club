@@ -128,7 +128,7 @@ The video was taken from [youtube](https://www.youtube.com) and belongs to [EASY
 
 ### Code 
 The developer has consulted countless times Stack Overflow and W3Schools in ordeer to build the website.
-The more specific code that has been heavily influencial to the developper is commented directly in the code. 
+The back to top button has been heavily influenced by the website [infopediya.com](https://infopediya.com/back-to-top-button-without-javascript/)
 [Back to top ⇧](#Abyss-diving-club)
 
 ## Acknowledgements

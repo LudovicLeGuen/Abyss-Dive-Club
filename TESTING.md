@@ -32,15 +32,12 @@
 
 * The footer links open in a new tab
      * Facebook
-
      ![Facebook link](assets/testing-files/footer/facebook.gif)
 
-     * Twitter
-
+     * Twitter 
      ![Twitter link](assets/testing-files/footer/twitter.gif)
 
      * Instagram 
-
      ![Instagram link](assets/testing-files/footer/instagram.gif)   
 
 * The back to the top button redirects to the navigation bar.
@@ -48,12 +45,7 @@
 
 ### Home Page
 * The hero image animation works when the page is refreshed
-     * On laptop
-
      ![Hero image animation on laptop](assets/testing-files/homepage/animation.gif) 
-
-     * On tablet
-     * On phone
 
 * The join button of each activity redirects to the signup page and hovering over them  changes their colors
 ![Join button test](assets/testing-files/homepage/join%20button.gif) 
