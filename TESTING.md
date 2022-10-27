@@ -59,24 +59,33 @@
 ![Join button test](assets/testing-files/homepage/join%20button.gif) 
 
 ### About Page
-* The location map iFrame is fully functional
-
+* The location map iFrame is fully functional 
 ![Location map test](assets/testing-files/about-page/map.gif)
 
-* The Youtube video embedded is fully functional
-
+* The Youtube video embedded is fully functional 
 ![Youtube video test](assets/testing-files/about-page/video.gif)
 
 ### Sign-up Page
 * Each field is required to send the form (except the dropdown menu)
-* The form sends the data correctly.
-
+* The form sends the data correctly. 
 ![form data test](assets/testing-files/signup-page/form.gif)
 
 ## Automated Testing
 ### Code Validation
 ### Browser Validation
+* Chrome 
+![Chrome browser validation](assets/testing-files/homepage/chrome.PNG)
+
+* Firefox 
+![Firefox browser validation](assets/testing-files/homepage/firefox.PNG)
+
+* Opera 
+![Opera browser validation](assets/testing-files/homepage/opera.PNG)
+
+* Edge 
+![Edge browser validation](assets/testing-files/homepage/edge.PNG)
 
 ## User testing 
+My wife and fellow coders at Code Institute participated in the tests. Special thanks to Kevin Bergström, Niclas Tanskanen, Folarin Ogungbemi and Matthias Kiesel for their feedback and ideas to improve my website.
 
 ***
