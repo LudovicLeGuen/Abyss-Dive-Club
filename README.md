@@ -94,6 +94,7 @@ There are two types of ideal users:
 [Back to top ⇧](#Abyss-diving-club)
 
 ## Testing
+Refer to this [page](TESTING.md) please
 
 ## Deployment
 The site was developped on Gitpod, commiting and pushing to github.

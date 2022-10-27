@@ -23,10 +23,43 @@
 #### New User Goals:
 
 ## Manual Testing
-### Navigation bar and footer 
+### Navigation bar, Footer, Back to Top button
+* The logo and site name go back to the home page
+* The Navigation menu links open the correct pages
+* Hovering over the navigation links underline them to show users they are clickable
+* Pages links are underlined when the user is browsing the page.
+![navigation menu tests](assets/testing-files/navigation-bar/nav%20bar.gif)
+
+* The footer links open in a new tab
+     * Facebook
+     ![Facebook link](assets/testing-files/footer/facebook.gif)
+     * Twitter
+     ![Twitter link](assets/testing-files/footer/twitter.gif)
+     * Instagram 
+     ![Instagram link](assets/testing-files/footer/instagram.gif)   
+
+* The back to the top button redirects to the navigation bar.
+![back to top test](assets/testing-files/homepage/back%20to%20top.gif) 
+
 ### Home Page
+* The hero image animation works when the page is refreshed
+     * On laptop
+     ![Hero image animation on laptop](assets/testing-files/homepage/animation.gif) 
+     * On tablet
+     * On phone
+
+* The join button of each activity redirects to the signup page and hovering over them  changes their colors
+![Join button test](assets/testing-files/homepage/join%20button.gif) 
+
 ### About Page
+* The location map iFrame is fully functional
+![Location map test](assets/testing-files/about-page/map.gif)
+* The Youtube video embedded is fully functional
+![Youtube video test](assets/testing-files/about-page/video.gif)
+
 ### Sign-up Page
+* The form sned the data correctly.
+![form data test](assets/testing-files/signup-page/form.gif)
 
 ## Automated Testing
 ### Code Validation
