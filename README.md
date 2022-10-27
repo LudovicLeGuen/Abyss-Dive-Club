@@ -75,9 +75,36 @@ There are two types of ideal users:
 ## Features
 ### Design Features
 ### Existing Features
-### Features to Implement in the future
+- **Header** - Found at the top on each page to keep the consistency necessary for clear navigation.
+- **Footer** - Found at the bottom of each page still to keep the navigation consistent.
+- **Activities** - The 3 activities are described in detail to show the most important information in a flash.
+- **Join button** - Found under each activity. Allows the users to reach the noin up page directly withoutthe need to scroll back up (especially ueful on mobile an tablet).
+- **Team section** - Provides a quick biography of each activity leader. This is essentially meant to establish the seriousness and credibikity of the team and raise the user confidence.
+- **Our Philiosophy section** - Provides the 4 pillars on which each ativity is built upon. Once more, this is a usegul information to built credibility and therefore trust.
+- **Youtube video** - The video provides a visual exemple of what is to come. As usual, credibility brings trust
+- **Google Map** - The map can help users visualize where to go and also provide a route if the user do not know where is the center.
+- **The sign up form** - Is a vital feature to register people and communicate with the team.
 
+### Features to Implement in the future
+* Map of the diving sites
+     This feature couple be useful to show where people can dive and what they can see. 
+* List of necessary equipment
+     This feature can help prevent mistakes and provide a useful info for the user. 
+     
 ## Issues and Bugs 
+Several issues were encountered during developpement but the most troublesome are listed below.
+
+* Checkboxes in Form
+The checkboxes in the signup page form prooved to be impossible to fix without Javascript. In effect the checkboxes required to be all ticked for the "Dive In" button (submit button) to work. The issue was not ncessarily problematic since the developper was not allowed to use Javascript but in order to keep the UX as realistic as possible the checkboxes were switched for select elements. 
+
+* Anchor element in the header
+The anchor elements in the header contains 1 child elements: an h1 element containing an image element.
+The anchor is supposed to be center horizontally with screens smaller than 950 px but when the text of the h1 element start to superimpose (h1 = ABYSS DIVING CLUB) the anchor sticks to the left of the screen and is no longer centered.
+Afetr multiple attempts and sveral hours of research, the developper has decided to leave the bug in order to meet the deadline.
+The bug must be fixed in the next release. 
+
+* Back to top button
+The back to top button prooved to contain an error in the W3C validator and needed to be modified. A button element was contained in an anchor element. Even though there was no particular bug with the previous back to top button, the developper has decided to still modify it in order to keep a clean validator. 
 
 ## Technologies Used
 ### Main Languages Used
