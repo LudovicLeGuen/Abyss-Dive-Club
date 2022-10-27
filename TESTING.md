@@ -64,6 +64,18 @@
 
 ## Automated Testing
 ### Code Validation
+* Home page W3C code validation 
+![Home page code validation](assets/testing-files/Validation/home-validation.gif)
+
+* About page W3C code validation 
+![About page code validation](assets/testing-files/Validation/about-validation.gif)
+
+* Sign-up page W3C code validation 
+![Sign-up page code validation](assets/testing-files/Validation/signup-validation.gif)
+
+* CSS W3C code validation 
+![CSS code validation](assets/testing-files/Validation/css-validation.gif)
+
 ### Browser Validation
 * Chrome 
 ![Chrome browser validation](assets/testing-files/homepage/chrome.PNG)
