@@ -32,10 +32,15 @@
 
 * The footer links open in a new tab
      * Facebook
+
      ![Facebook link](assets/testing-files/footer/facebook.gif)
+
      * Twitter
+
      ![Twitter link](assets/testing-files/footer/twitter.gif)
+
      * Instagram 
+
      ![Instagram link](assets/testing-files/footer/instagram.gif)   
 
 * The back to the top button redirects to the navigation bar.
@@ -44,7 +49,9 @@
 ### Home Page
 * The hero image animation works when the page is refreshed
      * On laptop
+
      ![Hero image animation on laptop](assets/testing-files/homepage/animation.gif) 
+
      * On tablet
      * On phone
 
@@ -53,12 +60,17 @@
 
 ### About Page
 * The location map iFrame is fully functional
+
 ![Location map test](assets/testing-files/about-page/map.gif)
+
 * The Youtube video embedded is fully functional
+
 ![Youtube video test](assets/testing-files/about-page/video.gif)
 
 ### Sign-up Page
-* The form sned the data correctly.
+* Each field is required to send the form (except the dropdown menu)
+* The form sends the data correctly.
+
 ![form data test](assets/testing-files/signup-page/form.gif)
 
 ## Automated Testing
