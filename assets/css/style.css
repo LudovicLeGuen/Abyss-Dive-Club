@@ -17,6 +17,10 @@ em {
     font-weight: bold;
 }
 
+.invisible-title{
+display: none;
+}
+
 /* logo and headings */
 h1,
 h2 {
