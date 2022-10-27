@@ -51,8 +51,8 @@ There are two types of ideal users:
 ### User-Stories
 #### Frequent User Goals
 * As a frequent user, I want to see a pleasing website representing a group of people to which I am proud to be part of.
-* As a current user, I want a website easy to navigate with information easily readable and accessible.
-* As a current user, I want to access the content with minimum clicks.
+* As a frequent user, I want a website easy to navigate with information easily readable and accessible.
+* As a frequent user, I want to access the content with minimum clicks.
 
 #### New User Goals
 * As a new user, I want to navigate the site easily and intuitively.
