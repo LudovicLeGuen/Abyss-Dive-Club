@@ -130,21 +130,21 @@ With the structure now in place the designer has created wireframes on [Balsamiq
 <details>
 <summary>Home page Wireframes</summary>
     
-![Home page](assets/readme-files/Home page.png)
+![Home page](assets/readme-files/home-page.png)
 
 </details> 
 
 <details>
 <summary>About page Wireframes</summary>
     
-![About page](assets/readme-files/about us.png)
+![About page](assets/readme-files/about-us.png)
 
 </details> 
 
 <details>
 <summary>Sign Up page Wireframes</summary>
     
-![Sign up page](assets/readme-files/join us.png)
+![Sign up page](assets/readme-files/join-us.png)
 
 </details> 
 
