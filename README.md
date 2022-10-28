@@ -69,15 +69,43 @@ There are two types of ideal users:
 
 ### Design
 #### Colour Scheme
+The color scheme was generate on [coolors](https://coolors.co/edc9ff-fed4e7-f2b79f-e5b769-d8cc34) using the logo as a starting point. 
+
 
 <details>
+<summary>Site Logo</summary>
+
+![Abyss Dive Club logo](assets/images/dive-logo.jpg)
+
+</details>
+    
+The logo colors are white and #1666AF. 
+
+The Generator used #1666AF as a reference point and produced this result
+    
+<details>
+ 
 <summary>Colour Palette</summary>
 
 ![Colour Palette](assets/readme-files/palette.png)
 
+</details> 
+
+Colors where used as such:  
+* The backround of the website is completely white. The designer has mmade this choice to keep the website very clean and simple.
+* Text in all the website is using the #1666AF color to follow the logo color.
+* The #3D80BC color is used as a Background color for the Join buttons in both the home page and he sign up page
+* The #0F63D color is used for the form and for the Footer social links
+
 </details>
+
 #### Typography
+The developper has chosen Lato and Oswald fron [Google Fonts](https://fonts.google.com/).
+
+Lato was used on the body of the website while Oswald was used on the h1, h2, h3 Titles and in the cover of the hero image.
+
 #### Imagery
+The images used on the website are sourced from various websites which are listed in the [Credits section](##Credits) of this README.
 
 ## Features
 ### Design Features
@@ -114,18 +142,17 @@ The home page has two sections:
 The about page has 4 dinstict sections:
 
 - **The Team section** consists of 3 boxes identical in structure representing the leader of each activity. Each boxe contains:
-         * The first name of the leader
-         * The portrait of the leader
-         * A quick bio of the leader to build credibility and therefore trust for the user.
-         *The team section is all about credibility and trust. The user needs to feels as secure as possible and showing who deos what is effective. 
-         The 3 Team boxes are all indentical in struture, height and width.*
+    * The first name of the leader
+    * The portrait of the leader
+    * A quick bio of the leader to build credibility and therefore trust for the user.
+    *The team section is all about credibility and trust. The user needs to feels as secure as possible and showing who deos what is effective. 
+    The 3 Team boxes are all indentical in struture, height and width.*
         
 - **The "Ethos" section** called "Our Philosophy" are all identical in size and are all centered to keep structural balance. They contain 3 parts:
-         * An icon
-         * The Ethos name
-         * The description
-         
-The 4 Ethos boxes are meant to deepens the user's trust by exposing the core values of the team. 
+    * An icon
+    * The Ethos name
+    * The description
+    * The 4 Ethos boxes are meant to deepens the user's trust by exposing the core values of the team.*
         
 - **The video section** purpose is to demonstrtae quickly what the users are going to do. This is meant to help the user make a decision.
         
