@@ -62,10 +62,93 @@ There are two types of ideal users:
 [Back to top ⇧](#Abyss-diving-club)
 
 ### Development-Planes
+The website has to answer the aforementioned needs of all users types and therefore must contain a detailed explanation of who does what, where and when in the form of activity descriptions, a team/leaders introduction, a location and a description of values.
+
 #### Strategy
+The website will focus on the following target audience
+* Audience
+    * New Users
+    * Frequent users
+    * Local population
+    * Tourists in the area
+    
+* Demographic
+    * Parents 
+    * Young adults
+    * Independeant adults
+    * Beginner divers
+    * Confirmed divers
+    
+* Psycho Characteristics
+    * Sociable
+    * Respectuous
+    * Adventurous
+    * Curious
+    * Nature lovers
+
+The Users must find these informations:
+    * The types of diving proposed
+    * The time and duration
+    * where to find us
+    * Who is in charge
+    * What is the background of the people in charge
+    * How serious and safe the activity is
+    * The conservation of nature must be mentionned
+    * The social and fun aspect of the activity must be shown.
+    
+The Administrator has to receive thiese information:
+    * The name of the user
+    * The user's choice of activity
+    * The email of the user
+    * The enquiries of the users (*if necesarry)
+    
 #### Scope
+
+Now that we have established the goals of the website we can deduce the necessary features and content:
+* Required Content
+    * An activity description with time and duration
+    * A team introduction with biography and portrait
+    * A decaration of our Ethos
+    * A video showig a typical gathering
+    * A map to find us
+
+* Required functionality
+    * A form to contact the administrators
+
 #### Structure
+
+The website will consist of 3 pages. 
+
+   1. **A Home page** with the most important information which is the proposed activity description with time and duration.     
+   2. **An About page** with a team leader board, an ethos section, a location, and a vido to show how fun and exciting it can be.
+   3. **A sign up Page** to contact the administrators.
+    
 #### Skeleton
+
+With the structure now in place the designer has created wireframes on [Balsamiq Wireframes](https://balsamiq.com) as a base to build the website. The developper took the liberty to improove the design during the development. 
+
+<details>
+<summary>Home page Wireframes</summary>
+    
+![Home page](assets/readme-files/Home page.png)
+
+</details> 
+
+<details>
+<summary>About page Wireframes</summary>
+    
+![About page](assets/readme-files/about us.png)
+
+</details> 
+
+<details>
+<summary>Sign Up page Wireframes</summary>
+    
+![Sign up page](assets/readme-files/join us.png)
+
+</details> 
+
+[Back to top ⇧](#Abyss-diving-club)
 
 ### Design
 #### Colour Scheme
@@ -106,6 +189,8 @@ Lato was used on the body of the website while Oswald was used on the h1, h2, h3
 
 #### Imagery
 The images used on the website are sourced from various websites which are listed in the [Credits section](##Credits) of this README.
+
+[Back to top ⇧](#Abyss-diving-club)
 
 ## Features
 ### Design Features
@@ -185,7 +270,9 @@ The sign up page contains two elements:
      This feature couple be useful to show where people can dive and what they can see. 
 * List of necessary equipment
      This feature can help prevent mistakes and provide a useful info for the user. 
-     
+
+[Back to top ⇧](#Abyss-diving-club)
+
 ## Issues and Bugs 
 Several issues were encountered during developpement but the most troublesome are listed below.
 
