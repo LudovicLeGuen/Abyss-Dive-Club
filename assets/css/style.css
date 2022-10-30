@@ -473,6 +473,68 @@ select {
     border-radius: 2px;
 }
 
+/* Dump form page */
+#form-dump {
+    display: flex;
+    flex-direction: column;
+}
+
+.dump-title {
+    font-size: 150%;
+    text-align: center;
+    width: 30%;
+    border: 2px solid #1666AF;
+    margin: 30px auto;
+}
+
+.dump-container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+#form-dump h3 {
+    font-size: 150%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.dump-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.dump-image img {
+    width: 70%
+}
+
+.home-button {
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    color: #fafafa;
+    display: block;
+}
+
+#form-dump a {
+    font-size: 100%;
+    background-color: #3d80bc;
+    width: 20%;
+    margin: 15px auto;
+    bottom: 0px;
+    text-decoration: none;
+}
+
+#form-dump a:hover {
+    border-bottom: 1px solid #1666AF;
+    background-color: white;
+    color: #3d80bc;
+    text-decoration: none;
+}
+
 /* For medium screen sizes from 950px wide and down */
 @media (max-width: 950px) {
 
@@ -491,6 +553,17 @@ select {
     #menu {
         justify-content: center;
     }
+
+    /* dump form title take 70% of the screen width */
+    .dump-title {
+        width: 70%;
+    }
+
+    /* dump image dissapear under 950 px width*/
+    .dump-image img {
+        display: none;
+    }
+
 
     /* 3 activities section to stack up and center*/
     /* 3 team memmbers to stack up and center*/
