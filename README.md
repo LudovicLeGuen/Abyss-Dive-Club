@@ -164,7 +164,7 @@ The color scheme was generate on [coolors](https://coolors.co/edc9ff-fed4e7-f2b7
     
 The logo colors are white and #1666AF. 
 
-The Generator used #1666AF as a reference point and produced this result
+The Generator used `#1666AF` as a reference point and produced this result
     
 <details>
  
@@ -176,9 +176,9 @@ The Generator used #1666AF as a reference point and produced this result
 
 Colors where used as such:  
 * The backround of the website is completely white. The designer has mmade this choice to keep the website very clean and simple.
-* Text in all the website is using the #1666AF color to follow the logo color.
-* The #3D80BC color is used as a Background color for the Join buttons in both the home page and he sign up page
-* The #0F63D color is used for the form and for the Footer social links
+* Text in all the website is using the `#1666AF` color to follow the logo color.
+* The `#3D80BC` color is used as a Background color for the Join buttons in both the home page and he sign up page
+* The `#0F63AD` color is used for the form and for the Footer social links
 
 </details>
 
@@ -338,6 +338,7 @@ The video was taken from [youtube](https://www.youtube.com) and belongs to [EASY
 ### Code 
 The developer has consulted countless times Stack Overflow and W3Schools in ordeer to build the website.
 The back to top button has been heavily influenced by the website [infopediya.com](https://infopediya.com/back-to-top-button-without-javascript/)
+
 [Back to top ⇧](#Abyss-diving-club)
 
 ## Acknowledgements

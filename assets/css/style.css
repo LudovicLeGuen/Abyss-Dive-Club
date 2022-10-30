@@ -48,6 +48,11 @@ header {
 
 header a {
     text-decoration: none;
+    display: flex;
+}
+
+header img {
+    height: 100%;
 }
 
 /* navigation links */
@@ -167,7 +172,6 @@ header a {
     width: 32%;
     margin-top: 30px;
     overflow: hidden;
-    position: relative;
 }
 
 .activity-box .join-button {
@@ -238,7 +242,7 @@ header a {
     margin: 15px 10px 0px 10px;
 }
 
-/* Back-To-Top Button Configuration - CSS code found on https://secluded.site/adding-a-better-scroll-to-top-button-without-javascript/ */
+/* Back-To-Top Button Configuration - CSS code heavily influenced by infopedya.com */
 .gotopbtn {
     position: fixed;
     bottom: 5rem;
@@ -264,7 +268,6 @@ header a {
 }
 
 /* footer and social network links*/
-
 footer {
     height: 150px;
 }
@@ -478,11 +481,11 @@ select {
         height: auto;
         flex-direction: column;
     }
-.test{
-    display: inline;
-}
+
     #logo {
         justify-content: center;
+        font-size: 5vw;
+
     }
 
     #menu {
@@ -515,7 +518,6 @@ select {
         border: 2px solid #1666AF;
         margin: 50px auto;
     }
-
 }
 
 /* For medium screen sizes from 1500px wide and down */
@@ -561,7 +563,6 @@ select {
     .picture-container {
         display: none;
     }
-
 }
 
 /* For medium screen sizes from 600px wide and down */
