@@ -96,18 +96,28 @@
 
 ![form data test](assets/testing-files/signup-page/form.gif)
 
+### Thank you Page
+* Hovering the back home button change the color
+* The back home button redirects to the home page. 
+
+![form data test](assets/testing-files/signup-page/dump.form.gif)
+
 ### Responsiveness
 * Home page
 
-![Home page resposnsive test](assets/testing-files/homepage/home-responsive.gif)
+![Home page responsive test](assets/testing-files/homepage/home-responsive.gif)
 
 * About page 
 
-![About page resposnsive test](assets/testing-files/about-page/about-responsive.gif)
+![About page responsive test](assets/testing-files/about-page/about-responsive.gif)
 
 * Sign-up page
 
-![Signup page resposnsive test](assets/testing-files/signup-page/signup-responsive.gif)
+![Signup page responsive test](assets/testing-files/signup-page/signup-responsive.gif)
+
+* Thank you page
+
+![Thank you page responsive test](assets/testing-files/signup-page/dump-responsive.gif)
 
 [Back to top](#Abyss-diving-club---Testing)
 
