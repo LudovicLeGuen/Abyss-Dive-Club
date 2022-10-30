@@ -100,7 +100,7 @@
 * Hovering the back home button change the color
 * The back home button redirects to the home page. 
 
-![form data test](assets/testing-files/signup-page/dump.form.gif)
+![form data test](assets/testing-files/signup-page/dump-form.gif)
 
 ### Responsiveness
 * Home page
@@ -117,7 +117,7 @@
 
 * Thank you page
 
-![Thank you page responsive test](assets/testing-files/signup-page/dump-responsive.gif)
+![Thank you page responsive test](assets/testing-files/signup-page/dump-responsiveness.gif)
 
 [Back to top](#Abyss-diving-club---Testing)
 
