@@ -281,12 +281,15 @@ The checkboxes in the signup page form prooved to be impossible to fix without J
 
 * Anchor element in the header
 The anchor elements in the header contains 1 child elements: an h1 element containing an image element.
-The anchor is supposed to be center horizontally with screens smaller than 950 px but when the text of the h1 element start to superimpose (h1 = ABYSS DIVING CLUB) the anchor sticks to the left of the screen and is no longer centered.
-Afetr multiple attempts and sveral hours of research, the developper has decided to leave the bug in order to meet the deadline.
-The bug must be fixed in the next release. 
+The anchor was supposed to be centered horizontally with screens smaller than 950 px but when the text of the h1 element start to superimpose (h1 = ABYSS DIVING CLUB) the anchor sticked to the left of the screen and was no longer centered.
+The solution to the issue was given by Ed Bradley by simply adding a flex to the container (the anchor) , seeting a 100% height for the img and setting a font size with a vw value. 
 
 * Back to top button
 The back to top button prooved to contain an error in the W3C validator and needed to be modified. A button element was contained in an anchor element. Even though there was no particular bug with the previous back to top button, the developper has decided to still modify it in order to keep a clean validator. 
+
+* Join button in activity boxes
+The 3 JOIN buttons of the activity boxes do not align perfectly at certain resolutions.
+After multiple attempts and several hours of research, the developper has decided to leave the bug in order to meet the deadline. The bug must be fixed in the next release.  
 
 ## Technologies Used
 ### Main Languages Used
@@ -338,7 +341,6 @@ The video was taken from [youtube](https://www.youtube.com) and belongs to [EASY
 ### Code 
 The developer has consulted countless times Stack Overflow and W3Schools in ordeer to build the website.
 The back to top button has been heavily influenced by the website [infopediya.com](https://infopediya.com/back-to-top-button-without-javascript/)
-
 [Back to top ⇧](#Abyss-diving-club)
 
 ## Acknowledgements

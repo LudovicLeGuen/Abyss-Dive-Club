@@ -149,6 +149,6 @@
 [Back to top](#Abyss-diving-club---Testing)
 
 ## User testing 
-My wife and fellow coders at Code Institute participated in the tests. Special thanks to Kevin Bergström, Niclas Tanskanen, Folarin Ogungbemi and Matthias Kiesel for their feedback and ideas to improve my website.
+My wife Dominika and fellow coders at Code Institute participated in the tests. Special thanks to Kevin Bergström, Niclas Tanskanen, Folarin Ogungbemi, Ed Bradley and Matthias Kiesel for their feedback and ideas to improve my website.
 
 ***
