@@ -117,11 +117,12 @@ Now that we have established the goals of the website we can deduce the necessar
 
 #### Structure
 
-The website will consist of 3 pages. 
+The website will consist of 4 pages. 
 
    1. **A Home page** with the most important information which is the proposed activity description with time and duration.     
    2. **An About page** with a team leader board, an ethos section, a location, and a vido to show how fun and exciting it can be.
    3. **A sign up Page** to contact the administrators.
+   4. **A Thank you pagee* to thank the user for registering.
     
 #### Skeleton
 
@@ -249,10 +250,20 @@ The about page has 4 dinstict sections:
 The sign up page contains two elements:
 
 - **The Sign Up Image** 
-       The imaage has been chosen for its artistic quality simply too illsutrate the beauty of diving.
+       The image has been chosen for its artistic quality simply too illustrate the beauty of diving.
 
 - **The Form**
        The sign up form is pretty simple but its captures the most important user information and allows the user to give more information through amessage box.
+
+- [The Thank you Page](https://github.com/LudovicLeGuen/Abyss-Dive-Club/blob/main/dump-form.html)
+
+The thank you page contains mainly two elements:
+
+- **The thank you picture** 
+       The image has been chosen for its artistic quality simply too illustrate the beauty of diving.
+
+- **The home mutton**
+       The button in essence is identical to the Home link in the navigation. Nevertheless, having the button helps the user and make sur the UX is smooth. 
 
 ### Existing Features
 - **Header** - Found at the top on each page to keep the consistency necessary for clear navigation.
