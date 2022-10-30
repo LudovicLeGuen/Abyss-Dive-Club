@@ -529,7 +529,7 @@ select {
 }
 
 #form-dump a:hover {
-    border-bottom: 1px solid #1666AF;
+    border: 1px solid #1666AF;
     background-color: white;
     color: #3d80bc;
     text-decoration: none;
