@@ -115,19 +115,25 @@
 ### Code Validation
 * Home page W3C code validation 
 
-![Home page code validation](assets/testing-files/Validation/home-validation.gif)
+![Home page code validation](assets/testing-files/validation/home-validation.gif)
 
 * About page W3C code validation 
 
-![About page code validation](assets/testing-files/Validation/about-validation.gif)
+![About page code validation](assets/testing-files/validation/about-validation.gif)
 
 * Sign-up page W3C code validation 
 
-![Sign-up page code validation](assets/testing-files/Validation/signup-validation.gif)
+![Sign-up page code validation](assets/testing-files/validation/signup-validation.gif)
 
 * CSS W3C code validation 
 
-![CSS code validation](assets/testing-files/Validation/css-validation.gif)
+![CSS code validation](assets/testing-files/validation/css-validation.gif)
+
+* LightHouse validation 
+
+![Lighthouse code validation](assets/testing-files/validation/score.PNG)
+
+![Lighthouse code validation](assets/testing-files/validation/access.PNG)
 
 ### Browser Validation
 * Chrome 
