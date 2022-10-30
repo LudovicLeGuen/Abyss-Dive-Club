@@ -69,6 +69,7 @@
      ![Instagram link](assets/testing-files/footer/instagram.gif)   
 
 * The back to the top button redirects to the navigation bar.
+
 ![back to top test](assets/testing-files/homepage/back%20to%20top.gif) 
 
 [Back to top](#Abyss-diving-club---Testing)

@@ -203,16 +203,24 @@ The Header. the Footer and the Back to Top button are three consistent features 
     - A navigation menu
 The header take the full width of the screen and has an adaptable height depending on the screen size. For clarity purpose and also for a attractiveness, the 2 elements are centered and stack on top of each other on smaller screens. The wanted effect is beauty and also consistency as all sections of the website stack on top of each other whith smaller screens.
 
+![Header](assets/readme-files/header.png)
+
 - **Footer** - The footer contains 3 centered social links, takes the full width of any screen and has a fixed height. Again, the purpose of the footer is consistency
 in navigation for the user.
 
+![Footer](assets/readme-files/footer.png)
+
 - **Back to Top button** - Placed ate the bottom right corner of the screen, it is fixed and does not move with scrolling. The background is transparent to ensure a maximum discretion and minimal interference with the content. The arrow used in the button is surrounded with a dark shadow to make sure the arrow is always visible if it passes over some picture or text. This is once more a developper choice to keep the navigation and the consumption of content as pleasant as possible.
+
+![Back to Top button](assets/readme-files/up.png)
 
 - [The Home Page](https://github.com/LudovicLeGuen/Abyss-Dive-Club/blob/main/index.html)
 
 The home page has two sections:
 
-- **The Hero Image** is all about capting the user attention with a WOW effect (thanks to  the zoom effect) while conveying the purpose of the website in a           flash. 
+- **The Hero Image** is all about capting the user attention with a WOW effect (thanks to  the zoom effect) while conveying the purpose of the website in a flash. 
+
+![Hero Image](assets/readme-files/hero.png)
        
 - **The 3 Activity sections** describe simply and quickly the most important information for the users and they all have the same structure:
         
@@ -222,6 +230,8 @@ The home page has two sections:
     * A descprition of the activity written briefly. A small final line in bold characters highlights an important information. 
     * A join button that redirects the users to the sign up page to accelerate and simplify the UX especialy on phones and tablets.
     The 3 Activity boxes are identical in structure, in height and width to keep the website clean and easy to understand. They are centered to help the                   comparaison of information. Under 950 px width, the 3 activity boxes stack on top of each other and still share the same width to keep the website                     consistent.
+
+    ![Activities section](assets/readme-files/activity.png)
             
 - [The about Page](https://github.com/LudovicLeGuen/Abyss-Dive-Club/blob/main/about.html)
 
@@ -233,37 +243,49 @@ The about page has 4 dinstict sections:
     * A quick bio of the leader to build credibility and therefore trust for the user.
     *The team section is all about credibility and trust. The user needs to feels as secure as possible and showing who deos what is effective. 
     The 3 Team boxes are all indentical in struture, height and width.*
+
+    ![The Team](assets/readme-files/team.png)
         
 - **The "Ethos" section** called "Our Philosophy" are all identical in size and are all centered to keep structural balance. They contain 3 parts:
     * An icon
     * The Ethos name
     * The description
     * The 4 Ethos boxes are meant to deepens the user's trust by exposing the core values of the team.*
+
+    ![Ethos section](assets/readme-files/ethos.png)
         
 - **The video section** purpose is to demonstrtae quickly what the users are going to do. This is meant to help the user make a decision.
+
+    ![Video](assets/readme-files/video.png)
         
 - **The Location section**
-        The Google map and the picture of the center establish the club as a physical point. This is a powerful psychological tool that prooves the club's existence. 
+    The Google map and the picture of the center establish the club as a physical point. This is a powerful psychological tool that prooves the club's existence. 
+
+    ![Map](assets/readme-files/map.png)
 
 - [The Sign Up Page](https://github.com/LudovicLeGuen/Abyss-Dive-Club/blob/main/sign-up.html)
 
 The sign up page contains two elements:
 
 - **The Sign Up Image** 
-       The image has been chosen for its artistic quality simply too illustrate the beauty of diving.
+    The image has been chosen for its artistic quality simply too illustrate the beauty of diving.
 
 - **The Form**
-       The sign up form is pretty simple but its captures the most important user information and allows the user to give more information through amessage box.
+    The sign up form is pretty simple but its captures the most important user information and allows the user to give more information through amessage box.
+
+    ![Sign Up features](assets/readme-files/form.png)
 
 - [The Thank you Page](https://github.com/LudovicLeGuen/Abyss-Dive-Club/blob/main/dump-form.html)
 
 The thank you page contains mainly two elements:
 
 - **The thank you picture** 
-       The image has been chosen for its artistic quality simply too illustrate the beauty of diving.
+    The image has been chosen for its artistic quality simply too illustrate the beauty of diving.
 
 - **The home mutton**
-       The button in essence is identical to the Home link in the navigation. Nevertheless, having the button helps the user and make sur the UX is smooth. 
+    The button in essence is identical to the Home link in the navigation. Nevertheless, having the button helps the user and make sur the UX is smooth. 
+
+    ![Thank you features](assets/readme-files/dump.png)
 
 ### Existing Features
 - **Header** - Found at the top on each page to keep the consistency necessary for clear navigation.
